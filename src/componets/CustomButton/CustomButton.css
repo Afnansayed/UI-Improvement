@@ -1,0 +1,32 @@
+.play-button {
+  width: 60px;
+  height: 60px;
+  background-color: #0059b1; /* Tomato color */
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.play-button:hover {
+  background-color: #0059b1; /* Darker Tomato color */
+}
+
+.play-button span {
+  width: 0;
+  height: 0;
+  border-left: 20px solid white;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+}
+
+.play-button.pause span {
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 12px solid white;
+  border-bottom: 12px solid white;
+  width: 20px;
+}
