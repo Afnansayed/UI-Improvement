@@ -13,7 +13,7 @@ const BuyBanner = () => {
       </div>
 
       {/* Form  */}
-      <div className="w-[984px] mx-auto p-6 shadow-xl space-y-6 bg-slate-50 absolute top-[200px] left-[370px]">
+      <div className="w-[984px] mx-auto p-6 shadow-xl space-y-6 bg-[#ffffff] absolute top-[200px] left-[370px]">
         <div className="shadow-sm p-2">
           <nav>
             <ul className="flex gap-6 text-lg font-semibold">
