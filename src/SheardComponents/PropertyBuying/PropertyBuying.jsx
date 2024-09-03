@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaSearch } from 'react-icons/fa';
 
 const PropertyBuying = () => {
     return (
@@ -9,6 +10,7 @@ const PropertyBuying = () => {
             <p className='text-clip'>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, quisquam? Perferendis dignissimos ex voluptatem consequuntur nulla explicabo tenetur eius nostrum?
             </p>
+            <div className='text-blue-500 flex items-center gap-3 bg-[#ecf5ff] p-2 w-1/4'> <span><FaSearch/></span> Find Property</div>
           </div>  
         </>
     );

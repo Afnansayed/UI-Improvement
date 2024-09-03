@@ -6,10 +6,12 @@ import VideoPlayer from '../../componets/landingPageComponents/VideoPlayed/Video
 import ContentOne from '../../componets/landingPageComponents/ContentOne/ContentOne';
 import ContentTwo from '../../componets/landingPageComponents/ContentTwo/ContenTwo'
 import ContentThree from './../../componets/landingPageComponents/ContentThee/ContentThree';
+import HomeBanner from '../../componets/landingPageComponents/HomeBanner/HomeBanner';
+
 const Home = () => {
     return (
-        <div>
-           
+        <div >
+            <HomeBanner/>
             <ContentOne/>
             <ContentThree/>
             <ContentTwo/>
