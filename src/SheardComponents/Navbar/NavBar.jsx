@@ -5,7 +5,7 @@ const NavBar = () => {
     <>
        <NavLink to='/' className={({isActive}) => isActive ? 'border-b-[3px] border-blue-600 ' : ''}><li>Home</li></NavLink>
        <NavLink to='/buy' className={({isActive}) => isActive ? 'border-b-[3px] border-blue-600 ' : ''}><li>Buy</li></NavLink>
-      <li>Sell</li>
+       <NavLink to='/sell' className={({isActive}) => isActive ? 'border-b-[3px] border-blue-600 ' : ''}><li>Sell</li></NavLink>
       <li>Services</li>
     </>
   );
