@@ -10,7 +10,7 @@ import HomeBanner from '../../componets/landingPageComponents/HomeBanner/HomeBan
 
 const Home = () => {
     return (
-        <div >
+        <div>
             <HomeBanner/>
             <ContentOne/>
             <ContentThree/>
