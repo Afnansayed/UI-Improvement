@@ -3,7 +3,7 @@ import { FaArrowDown } from 'react-icons/fa';
 
 const ListedFile = () => {
     return (
-        <div className='p-8 flex flex-wrap gap-6'>
+        <div className='p-8 flex flex-wrap justify-between'>
              <div className='p-8 bg-[#fdf0e7] w-[23%]'>
                 <h3 className='text-4xl font-bold text-orange-400'>2k+</h3>
                 <p>New Flat Listed</p>
