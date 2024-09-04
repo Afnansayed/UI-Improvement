@@ -1,5 +1,5 @@
 import { Navigate, NavLink } from "react-router-dom";
-
+import img from '../../assets/photos/OSKHFO0.jpg'
 const NavBar = () => {
   const nav = (
     <>
@@ -16,14 +16,14 @@ const NavBar = () => {
         <li>Sign in</li>
   </>
   return (
-    <div className="bg-[#ecf5ff] flex justify-around p-3 rounded-sm">
+    <div className="bg-[#ecf5ff] flex justify-around items-center p-3 rounded-sm">
       <div>
         <ul className="flex gap-6 text-xl font-semibold">
             {nav}
         </ul>
       </div>
       <div>
-        <span>icon</span>
+        <span><img src={img} className="w-12 rounded-bl-xl rounded-tr-xl" alt="logo" /></span>
       </div>
       <div>
         <ul className="flex gap-6 text-xl font-semibold">

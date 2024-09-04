@@ -1,10 +1,11 @@
 import { FaFacebookSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
+import img from '../../../assets/photos/OSKHFO0.jpg'
 const Fotter = () => {
   return (
     <>
       <footer className="footer bg-[#ecf5ff]  p-10">
         <nav>
-            <span>Icon</span>
+            <span><img src={img} className="w-12 rounded-bl-xl rounded-tr-xl mb-3" alt="logo" /></span>
             <p>Lorem ipsum dolor sit amet consectetur,<br /> adipisicing elit. </p>
         </nav>
         <nav>
